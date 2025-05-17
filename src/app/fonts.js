@@ -26,3 +26,24 @@ export const satoshi = localFont({
   variable: "--font-satoshi",
   display: "swap",
 });
+
+export const integralCF = localFont({
+  src: [
+    {
+      path: "./fonts/Fontspring-DEMO-integralcf-regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Fontspring-DEMO-integralcf-medium.otf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Fontspring-DEMO-integralcf-bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-integralcf",
+});

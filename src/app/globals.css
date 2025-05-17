@@ -12,6 +12,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-satoshi: var(--font-satoshi);
+  --font-integralcf: var(--font-integralcf);
 }
 
 body {
