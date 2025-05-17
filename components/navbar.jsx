@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import Link from 'next/link'; 
 
 export default function Navbar() {
   return (
@@ -13,9 +14,18 @@ export default function Navbar() {
 
         
         <div className="hidden md:flex gap-6 text-sm text-black">
-          <span className="cursor-pointer flex flex-row">Shop 
+          {/* <Link className="cursor-pointer flex flex-row">Shop 
             <Image src="https://res.cloudinary.com/dn0fpl7ks/image/upload/v1747330398/Dropdown_vcvnzf.svg" width={16} height={16} alt="Dropdown" />
-          </span>
+          </Link> */}
+          <Link href="/product" className="cursor-pointer flex flex-row items-center">
+          Shop
+            <Image
+              src="https://res.cloudinary.com/dn0fpl7ks/image/upload/v1747330398/Dropdown_vcvnzf.svg"
+              width={16}
+              height={16}
+              alt="Dropdown"
+          />
+          </Link>
           <span className="cursor-pointer">On Sale</span>
           <span className="cursor-pointer">New Arrivals</span>
           <span className="cursor-pointer">Brands</span>

@@ -6,19 +6,15 @@ import Products from "../../components/products";
 import TopProducts from "../../components/topselling";
 import Browse from "../../components/browse";
 import Chats from "../../components/chats";
-import FooterComp from "../../components/footercomp";
 export default function Home() {
   return (
     <>
-      <HeaderRibbon />
-      <Navbar />
       <HeroSection />
       <BrandBar />
       <Products />
       <TopProducts />
       <Browse />
       <Chats />
-      <FooterComp />
     </>
   );
 }
