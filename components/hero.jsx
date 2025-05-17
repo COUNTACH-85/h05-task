@@ -11,7 +11,7 @@ const HeroSection = () => {
         priority
       />
       <div className="absolute z-10 left-10 top-1/5 max-w-xl text-black">
-        <h1 className="text-6xl font-black leading-tight">
+        <h1 className="text-6xl font-black font-integralcf leading-tight">
           FIND CLOTHES <br /> THAT MATCHES <br /> YOUR STYLE
         </h1>
         <p className="mt-4 text-[rgba(0,_0,_0,_0.60)] font-satoshi">

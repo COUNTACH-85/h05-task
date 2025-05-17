@@ -6,7 +6,7 @@ import Products from "../../components/products";
 import TopProducts from "../../components/topselling";
 import Browse from "../../components/browse";
 import Chats from "../../components/chats";
-import FooterComp from "../../components/footer";
+import FooterComp from "../../components/footercomp";
 export default function Home() {
   return (
     <>
