@@ -2,6 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { satoshi } from "./fonts";
 import { integralCF } from "./fonts";
 import "./globals.css";
+import HeaderRibbon from "../../components/header";
+import Navbar from "../../components/navbar";
+import FooterComp from "../../components/footercomp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,7 +27,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${satoshi.variable} ${integralCF.variable}`}
       >
+        <HeaderRibbon />
+        <Navbar />
         {children}
+        <FooterComp />
       </body>
     </html>
   );
