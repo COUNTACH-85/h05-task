@@ -71,8 +71,8 @@ const StarRating = ({ stars, rating }) => {
 export default function TopProducts() {
   return (
     <div className="w-full py-10 px-4 md:px-12 font-satoshi">
-      <h2 className="text-center text-3xl md:text-4xl font-bold font-satoshi mb-6">
-        NEW ARRIVALS
+      <h2 className="text-center text-3xl md:text-4xl font-bold font-integralcf mb-6">
+        TOP SELLING
       </h2>
 
       <div className="flex md:grid md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 overflow-x-auto no-scrollbar scroll-smooth">

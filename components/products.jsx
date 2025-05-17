@@ -71,7 +71,7 @@ const StarRating = ({ stars, rating }) => {
 export default function Products() {
   return (
     <div className="w-full py-10 px-4 md:px-12 font-satoshi">
-      <h2 className="text-center text-3xl md:text-4xl font-bold font-satoshi mb-6">
+      <h2 className="text-center text-3xl md:text-4xl font-bold font-integralcf mb-6">
         NEW ARRIVALS
       </h2>
 

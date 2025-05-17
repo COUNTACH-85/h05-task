@@ -9,7 +9,7 @@ export default function Navbar() {
           <Image src="https://res.cloudinary.com/dn0fpl7ks/image/upload/v1747310633/hamburger_hpfcqr.svg" width={24} height={24} alt="Hamburger" />
         </button>
 
-        <h1 className="font-extrabold text-xl tracking-wide">SHOP.CO</h1>
+        <h1 className="font-extrabold font-integralcf text-xl tracking-wide">SHOP.CO</h1>
 
         
         <div className="hidden md:flex gap-6 text-sm text-black">
