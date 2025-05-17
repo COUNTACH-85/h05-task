@@ -111,7 +111,7 @@ export default function ProductReviews() {
         </div>
       </div>
 
-      {/* Reviews Header */}
+      
       <div className="flex items-center justify-between my-6 px-4 md:px-0">
         <h2 className="text-lg font-semibold">
           All Reviews <span className="text-gray-500 text-sm font-normal">({reviews.length})</span>
@@ -137,7 +137,7 @@ export default function ProductReviews() {
         </div>
       </div>
 
-      {/* Reviews Grid */}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4 md:px-0">
         {reviews.map((review) => (
           <div key={review.id} className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
